@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="shortcut icon" href="img/001.ico" type="image/x-icon">
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/remScale.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        /* width: 100%; */
+        /* height: 100%; */
+      }
+
+      /* bod
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    } */
+
+      .swiper {
+        width: 100%;
+        height: 4.5rem;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        /* display: block; */
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+      }
+      .mySwiper2{
+        height: 6rem;
+      }
+      .mySwiper3{
+        height: 6rem;
+      }
+      .mySwiper2 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #252525;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+      <!-- header -->
+      <div class="header">
+        <div class="header-center">
+          <a class="a" href="index.html"><span>A</span>DKL</a>
+
+          <ul>
+            <li>
+              <a href="index.html">首页</a>
+              <p class="active"></p>
+            </li>
+            <li>
+              <a href="footprint.html">足迹</a>
+              <p></p>
+            </li>
+            <li><a href="product.html">产品</a>
+              <p></p>
+            </li>
+            <li>
+              <a href="we.html">我们</a>
+              <p></p>
+            </li>
+          </ul>
+          <div id="zzsc">
+            <canvas id="canvas"></canvas>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- banner -->
+      <div class="banner">
+        <!-- Swiper -->
+        <div class="banner-swiper1">
+          <div class="swiper mySwiper swiper-initialized swiper-vertical swiper-pointer-events swiper-backface-hidden">
+            <div class="swiper-wrapper" id="swiper-wrapper-1a25543db3ecdf1f" aria-live="polite"
+              style="transition-duration: 0ms; transform: translate3d(0px, -1720px, 0px);">
+              <div class="swiper-slide Img Img1" role="group" aria-label="1 / 4" style="height: 215px;">
+                <img src="img/1banner1.png" alt="">
+                <div class="down">上拉看看<span>&spades;</span></div>
+              </div>
+              <div class="swiper-slide Img Img2" role="group" aria-label="2 / 4" style="height: 215px;">
+                <img src="img/1banner4.png" alt="">
+                <div class="down">上拉看看<span>&spades;</span></div>
+              </div>
+              <div class="swiper-slide Img Img3" role="group" aria-label="3 / 4" style="height: 215px;">
+                <img src="img/1banner2.png" alt="">
+
+                <div class="down">上拉看看<span>&spades;</span></div>
+
+              </div>
+              <div class="swiper-slide Img Img4" role="group" aria-label="4 / 4" style="height: 215px;">
+                <img src="img/1banner3.png" alt="">
+
+                <div class="down">上拉看看<span>&spades;</span></div>
+              </div>
+          </div>
+
+        </div>
+        <div class="banner-li">
+          <ul>
+            <li class="active1">
+              <a class="uav1" href="javascript:;">
+                <p>
+                  <span style="color: red;">UAV</span>  UAV 
+                </p>
+                <p>无人机展示一</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <p>
+                  <span style="color: red;">UAV</span>  UAV 
+                </p>
+                <p class="uav2">无人机展示二</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <p>
+                  <span style="color: red;">UAV</span>  UAV 
+                </p>
+                <p class="uav3">无人机展示三</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;">
+                <p>
+                  <span style="color: red;">UAV</span>  UAV 
+                </p>
+                <p class="uav4">无人机展示四</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="banner-swiper2 banner-xt">
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/banner-xt.jpg" alt="">
+                <div class="script">
+                  <div class="title">
+                    <p>双目摄像头</p>
+                    <p>Binocular camera</p>
+                  </div>
+                  <p>20米范围内具有明显的测距优势，在20米以外，
+                    很难缩小视差的范围。采用高像素摄像头和较好的算法可
+                    以提高测距性能，双目摄像头间距越小，测距镜头之间的距
+                    离越近，探测距离越大，镜头间距越大，探测距离越远。</p>
+                </div>
+                <div class="left">
+                  &lt; 右滑试试 
+                </div>
+                <div class="right">
+                  左滑试试 &gt;
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/banner-xt.jpg" alt="">
+                <div class="script">
+                  <div class="title">
+                    <p>双目摄像头</p>
+                    <p>Binocular camera</p>
+                  </div>
+                  <p>20米范围内具有明显的测距优势，在20米以外，
+                    很难缩小视差的范围。采用高像素摄像头和较好的算法可
+                    以提高测距性能，双目摄像头间距越小，测距镜头之间的距
+                    离越近，探测距离越大，镜头间距越大，探测距离越远。</p>
+                </div>
+                <div class="left">
+                  &lt; 右滑试试 
+                </div>
+                <div class="right">
+                  左滑试试 &gt;
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/banner-xt.jpg" alt="">
+                <div class="script">
+                  <div class="title">
+                    <p>双目摄像头</p>
+                    <p>Binocular camera</p>
+                  </div>
+                  <p>20米范围内具有明显的测距优势，在20米以外，
+                    很难缩小视差的范围。采用高像素摄像头和较好的算法可
+                    以提高测距性能，双目摄像头间距越小，测距镜头之间的距
+                    离越近，探测距离越大，镜头间距越大，探测距离越远。</p>
+                </div>
+                <div class="left">
+                  &lt; 右滑试试 
+                </div>
+                <div class="right">
+                  左滑试试 &gt;
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/banner-xt.jpg" alt="">
+                <div class="script">
+                  <div class="title">
+                    <p>双目摄像头</p>
+                    <p>Binocular camera</p>
+                  </div>
+                  <p>20米范围内具有明显的测距优势，在20米以外，
+                    很难缩小视差的范围。采用高像素摄像头和较好的算法可
+                    以提高测距性能，双目摄像头间距越小，测距镜头之间的距
+                    离越近，探测距离越大，镜头间距越大，探测距离越远。</p>
+                </div>
+                <div class="left">
+                  &lt; 右滑试试 
+                </div>
+                <div class="right">
+                  左滑试试 &gt;
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <ul>
+            <li><img src="../img/banner2.jpg" alt=""></li>
+            <li><img src="../img/banner2.jpg" alt=""></li>
+            <li><img src="../img/banner2.jpg" alt=""></li>
+            <li><img src="../img/banner2.jpg" alt=""></li>
+          </ul> -->
+        </div>
+        <!-- 3 -->
+        <div class="banner-swiper2">
+          <div class="swiper mySwiper2 mySwiper3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="img/banner3-1.png" alt="">
+                <div class="left">
+                  &lt; &lt; &lt;
+                </div>
+                <div class="right">
+                  &gt; &gt; &gt;
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/banner3-3.png" alt="">
+                <div class="left">
+                  &lt; &lt; &lt;
+                </div>
+                <div class="right">
+                  &gt; &gt; &gt;
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/banner3-3.png" alt="">
+                <div class="left">
+                  &lt; &lt; &lt;
+                </div>
+                <div class="right">
+                  &gt; &gt; &gt;
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src="img/banner3-4.png" alt="">
+                <div class="left">
+                  &lt; &lt; &lt;
+                </div>
+                <div class="right">
+                  &gt; &gt; &gt;
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 4 -->
+        <div class="banner4">
+          <img src="img/banner4.png" alt="">
+        </div>
+
+        <!-- 售后服务 -->
+        <div class="Service">
+          <div>
+            <!-- <p class="border"></p> -->
+            <p><span>————————</span>  欢迎使用ADKL产品  <span>————————</span></p>
+            <p>Welcome to ADKL products</p>
+          </div>
+          <ul>
+            <li>
+              <a href="javascript:;"><img src="img/jswx.jpg" alt=""></a>
+            </li>
+            <li>
+              <a href="javascript:;"><img src="img/gwzn.jpg" alt=""></a>
+            </li>
+            <li>
+              <a href="javascript:;"><img src="img/shfw.jpg" alt=""></a>
+            </li>
+            <li>
+              <a href="javascript:;"><img src="img/cpzc.jpg" alt=""></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+          <div class="footer-ul">
+            <ul>
+              <p>
+                最新动态
+                </p>
+              <li>
+                <a href="javascript:;">图片资源</a>
+                </li>
+              <li>
+                <a href="javascript:;">ADKL社区</a>
+                </li>
+              <li>
+                <a href="javascript:;">新闻动态</a>
+                </li>
+            </ul>
+    
+            <ul>
+              <p>
+                  关于我们
+              </p>
+              <li>
+                <a href="javascript:;">公司简介</a>
+                </li>
+              <li>
+                <a href="javascript:;">ADKL文化</a>
+                </li>
+              <li>
+                <a href="javascript:;">联系我们</a>
+                </li>
+              <li>
+                <a href="javascript:;">人才招聘</a>
+                </li>
+            </ul>
+    
+            <ul>
+              <p>
+                体验与服务
+              </p>
+              <li>
+                <a href="javascript:;">查询体验店</a>
+                </li>
+              <li>
+                <a href="javascript:;">查询服务店</a>
+                </li>
+              <li>
+                <a href="javascript:;">服务政策</a>
+                </li>
+              <li>
+                <a href="javascript:;">ADKL保养</a>
+                </li>
+            </ul>
+            <ul>
+              <p>APP下载</p>
+              <li>
+                <img src="img/29_f04691e53cf831bdd7f8defcb31149f4.png" alt="">
+              </li>
+            </ul>
+            <a href="index.html">
+              <img src="img/logo.jpg" alt="">
+            </a>
+          </div>
+          <div class="footer-p">
+            <p>Copyinght  2021 DLL ADKL创新 版权所有哼ICE备 12022732号</p>
+          </div>
+      </div>
+        
+      <!-- return -->
+      <a href="#" class="return iconfont icon-fanhuidingbu">
+      </a>
+    </div>
+
+    <!-- js -->
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"> </script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        direction: "vertical",
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+      });
+      var swiper = new Swiper(".mySwiper2", {
+        loop: true,
+        thumbs: {
+          swiper: swiper,
+        }
+      });
+    </script>
+
+    <!-- 时间js -->
+    <script type="text/javascript" src="js/time.js"></script>
+    <!-- 时间消失 -->
+    <script src="js/common.js"></script>
+</body>
+</html>

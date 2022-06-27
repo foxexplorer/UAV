@@ -1,0 +1,269 @@
+/* 
+.box{
+    position: relative;
+} */
+.big{
+    width: 100%;
+    height: 5rem;
+
+    /* background-color: aquamarine; */
+}
+.big img{
+    width: 100%;
+    height: 100%;
+}
+.cp{
+    width: 100%;
+    height: 2rem;
+    position: relative;
+}
+.cp ul{
+    width: 70%;
+    height: 1.5rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: -1rem;
+    left: 2.4rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0rem 0rem 0.1rem #999;
+    background-color: #fff;
+}
+.cp ul li{
+    list-style: none;
+    /* float: left; */
+
+    text-align: center;
+}
+.cp ul li{
+    width: 22%;
+    /* margin-left: 8%; */
+    padding-top: 2%;
+    object-fit: cover;
+    transition: 0.2s;
+}
+.cp ul li:hover {
+    transform: scale(1.1);
+}
+.cp ul li p:nth-child(1){
+    width: 90%;
+    height: 0.8rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.cp ul li p img{
+    width: 100%;
+    height: 100%;
+}
+.active{
+    display: none;
+}
+
+
+/* 专区 */
+.arrondi{
+    width: 70%;
+    height: 5rem;
+    margin: 0 auto;
+    /* background-color: aquamarine; */
+}
+.arrondi .title p:nth-child(1){
+    font-size: 0.35rem;
+    font-weight: 600;
+}
+
+.arrondi .title p:nth-child(2){
+    font-size: 0.15rem;
+    color: #999;
+    /* font-weight: 600; */
+}
+.arrondi ul{
+    display: flex;
+    justify-content: space-between;
+}
+.arrondi ul li{
+    /* float: left; */
+    width: 25%;
+    margin-top: 0.3rem;
+    margin-right: 12.5%;
+    list-style: none;
+    object-fit: cover;
+    transition: 0.2s;
+}
+.arrondi ul li:hover {
+    transform: scale(1.1);
+}
+.arrondi ul li p{
+    margin-top: 5%;
+}
+.arrondi ul li:nth-child(3){
+    margin-right: 0;
+}
+.arrondi ul li p:nth-child(1){
+    width: 100%;
+    height: 2rem;
+    overflow: hidden;
+    box-shadow: 0rem 0rem 0.1rem #999;
+    background-color: #fff;
+    border-radius: 0.3rem;
+
+}
+
+.arrondi ul li p:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.3rem;
+
+}
+.arrondi ul li p:nth-child(2){
+    font-size: 0.25rem;
+    /* font-weight: 600; */
+    margin-top: 3%;
+}
+.arrondi ul li p:nth-child(3){
+    font-size: 0.15rem;
+    color: #999;
+}
+.arrondi ul li p:nth-child(4){
+    margin-top: 7%;
+}
+.arrondi ul li p:nth-child(4) a{
+    width: 60%;
+    padding: 0.05rem 0.2rem;
+    font-size: 0.15rem;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    border-radius: 0.04rem;
+}
+#arrondi2{
+    margin-top:4%;
+}
+
+
+/* parts 配件 */
+.parts{
+    width: 70%;
+    height: 5.5rem;
+    margin: 5% auto;
+}
+.parts .title{
+    text-align: center;
+}
+.parts .title h3{
+    font-size: 0.35rem;
+}
+.parts .title p{
+    /* color: #999; */
+    font-size: 0.15rem;
+}
+.parts ul {
+    margin-top: 0.3rem;
+}
+.parts ul li{
+    width: 37%;
+    height: 1.4rem;
+    float: left;
+    list-style: none;
+    border-radius: 0.5rem;
+    object-fit: cover;
+    transition: 0.2s;
+}
+.parts ul li:hover {
+    transform: scale(1.1);
+}
+.parts ul .one{
+    position: relative;
+    width: 55%;
+    height: 3.8rem;
+    padding: 3% 0 0 3%;
+    background-color: #fff;
+
+}
+.parts ul .one p{
+    width: 50%;
+
+}
+.parts ul .one p:nth-child(1){
+    height: 2rem;
+}
+.parts ul .one p:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+
+}
+.parts ul .one p:nth-child(2){
+    /* width: 50%; */
+    margin-top: 4%;
+    font-size: 0.3rem;
+    text-align: center;
+}
+.parts ul .one p:nth-child(3){
+    width: 40%;
+    margin-top: 4%;
+    margin-left: 6%;
+    font-size: 0.1rem;
+    color: #999;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+.parts ul .one p:nth-child(4) a{
+    position: absolute;
+    bottom: 13%;
+    right: 8%;
+    width: 12%;
+    padding: 0.05rem 0.2rem;
+    font-size: 0.15rem;
+    color: #fff;
+    background-color: #000;
+    border-radius: 0.04rem;
+}
+.parts ul .two{
+    position: relative;
+    margin-left: 2%;
+    padding-top: 0.3rem;
+    padding-bottom: 0.2rem;
+
+    /* height: 1.5rem; */
+    background-color: #fff;
+}
+.parts ul .two2{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+
+}
+.parts ul .two div{
+    width: 90%;
+    height: 1rem;
+    margin: 0 auto;
+    /* line-height: 0.8rem; */
+    /* background-color: aquamarine; */
+}
+.parts ul .two div p{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 1rem;
+    
+}
+.parts ul .two div p:nth-child(1){
+    width: 78%;
+    height: 0.8rem;
+    margin-bottom: 0.1rem;
+}
+.parts ul .two div p:nth-child(1) img{
+    width: 100%;
+    height: 100%;
+}
+.parts ul .two div p:nth-child(2){
+    height: 0.4rem;
+    line-height: 0.4rem;
+}
+
+

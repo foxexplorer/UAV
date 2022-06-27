@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADKL-我的</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/we.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="shortcut icon" href="img/001.ico" type="image/x-icon">
+
+    <script src="js/remScale.js"></script>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+
+    <!-- Demo styles -->
+    <style>
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .mySwiper .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* body {
+          background: #000;
+          color: #000;
+        } */
+
+        .swiper {
+            width: 9rem;
+            height: 4rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .mySwiper2 {
+            width: 100%;
+            height: 73%;
+        }
+
+        .mySwiper {
+            height: 22%;
+            padding: 10px 0;
+        }
+
+        .mySwiper .swiper-slide {
+            width: 20%;
+            /* height: 100%; */
+            opacity: 0.4;
+        }
+
+        .mySwiper .swiper-slide-thumb-active {
+            opacity: 1;
+        }
+
+        .mySwiper2 .swiper-slide img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <!-- header -->
+        <div class="header">
+            <div class="header-center">
+            <a class="a" href="index.html"><span>A</span>DKL</a>
+
+            <ul>
+                <li>
+                <a href="index.html">首页</a>
+                <p></p>
+                </li>
+                <li>
+                <a href="footprint.html">足迹</a>
+                <p></p>
+                </li>
+                <li><a href="product.html">产品</a>
+                <p></p>
+                </li>
+                <li>
+                <a href="we.html">我们</a>
+                <p class="active"></p>
+                </li>
+            </ul>
+            <div id="zzsc">
+                <canvas id="canvas"></canvas>
+            </div>
+
+            </div>
+        </div>
+
+        <!-- banner -->
+        <div class="banner">
+            <img src="img/we-banner..jpg" alt="">
+        </div>
+
+        <!-- ambient -->
+        <div class="ambient">
+            <ul>
+                <!-- 办公环境 -->
+                <li>
+                    <p>
+                        <a href="javascript:;">
+                            办公环境
+                        </a>
+                        <span class="p1">让工作更便捷，让生活更轻松</span>
+                    </p>
+                    <div class="wrap">
+                        <!-- Swiper -->
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                            class="swiper swiper2 mySwiper2 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                            <div class="swiper-wrapper" id="swiper-wrapper-dc1579210bce40e62" aria-live="polite"
+                                style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/bghj-1.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/bghj-2.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="3 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/bghj-3.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="4 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/bghj-4.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/bghj-5.webp">
+                                </div>
+                            </div>
+                        </div>
+                        <div thumbsslider=""
+                            class="swiper swiper1 mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-free-mode swiper-backface-hidden swiper-thumbs">
+                            <div class="swiper-wrapper" id="swiper-wrapper-87135a3f0f4e7929" aria-live="polite"
+                                style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-active swiper-slide-thumb-active"
+                                    role="group" aria-label="1 / 5" style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/bghj-1.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-next" role="group"
+                                    aria-label="2 / 5" style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/bghj-2.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible" role="group" aria-label="3 / 5"
+                                    style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/bghj-3.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible" role="group" aria-label="4 / 5"
+                                    style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/bghj-4.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 5"
+                                    style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/bghj-5.webp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- 企业合作 -->
+                <li>
+                    <p>
+                        <a href="javascript:;">企业合作</a>
+                        <span class="p1">让工作更便捷，让生活更轻松</span>
+
+                    </p>
+                    <div class="wrap">
+                        <!-- Swiper -->
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                            class="swiper swiper4 mySwiper2 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                            <div class="swiper-wrapper" id="swiper-wrapper-dc1579210bce40e62" aria-live="polite"
+                                style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/qyhz-1.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/qyhz-2.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="3 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/qyhz-3.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="4 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/qyhz-4.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/qyhz-5.webp">
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-dc1579210bce40e62" aria-disabled="false"></div>
+                            <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-dc1579210bce40e62" aria-disabled="true"></div> -->
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                        <div thumbsslider=""
+                            class="swiper swiper3 mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-free-mode swiper-backface-hidden swiper-thumbs">
+                            <div class="swiper-wrapper" id="swiper-wrapper-87135a3f0f4e7929" aria-live="polite"
+                                style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-active swiper-slide-thumb-active"
+                                    role="group" aria-label="1 / 5" style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/qyhz-1.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-next" role="group"
+                                    aria-label="2 / 5" style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/qyhz-2.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible" role="group" aria-label="3 / 5"
+                                    style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/qyhz-3.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible" role="group" aria-label="4 / 5"
+                                    style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/qyhz-4.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 5"
+                                    style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/qyhz-5.webp">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+
+                    </div>
+
+                </li>
+                <!-- 加入我们 -->
+                <li>
+                    <p>
+                        <a href="javascript:;">加入我们</a>
+                        <span class="p1">寻找最闪亮的你</span>
+                    </p>
+                    <div class="wrap">
+                        <!-- Swiper -->
+                        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+                            class="swiper swiper6 mySwiper2 swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                            <div class="swiper-wrapper" id="swiper-wrapper-dc1579210bce40e62" aria-live="polite"
+                                style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/jrwm-1.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/jrwm-2.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="3 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/jrwm-3.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="4 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/jrwm-4.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 5"
+                                    style="width: 1280px; margin-right: 10px;">
+                                    <img src="img/jrwm-5.webp">
+                                </div>
+                            </div>
+                            <!-- <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-dc1579210bce40e62" aria-disabled="false"></div>
+                            <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-dc1579210bce40e62" aria-disabled="true"></div> -->
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+                        <div thumbsslider=""
+                            class="swiper swiper5 mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-free-mode swiper-backface-hidden swiper-thumbs">
+                            <div class="swiper-wrapper" id="swiper-wrapper-87135a3f0f4e7929" aria-live="polite"
+                                style="transform: translate3d(0px, 0px, 0px);">
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-active swiper-slide-thumb-active"
+                                    role="group" aria-label="1 / 5" style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/jrwm-1.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible swiper-slide-next" role="group"
+                                    aria-label="2 / 5" style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/jrwm-2.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible" role="group" aria-label="3 / 5"
+                                    style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/jrwm-3.webp">
+                                </div>
+                                <div class="swiper-slide swiper-slide-visible" role="group" aria-label="4 / 5"
+                                    style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/jrwm-4.webp">
+                                </div>
+                                <div class="swiper-slide" role="group" aria-label="5 / 5"
+                                    style="width: 312.5px; margin-right: 10px;">
+                                    <img src="img/jrwm-5.webp">
+                                </div>
+                            </div>
+                            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                        </div>
+
+                    </div>
+
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-ul">
+                <ul>
+                <p>
+                    最新动态
+                    </p>
+                <li>
+                    <a href="javascript:;">图片资源</a>
+                    </li>
+                <li>
+                    <a href="javascript:;">ADKL社区</a>
+                    </li>
+                <li>
+                    <a href="javascript:;">新闻动态</a>
+                    </li>
+                </ul>
+        
+                <ul>
+                <p>
+                    关于我们
+                </p>
+                <li>
+                    <a href="javascript:;">公司简介</a>
+                    </li>
+                <li>
+                    <a href="javascript:;">ADKL文化</a>
+                    </li>
+                <li>
+                    <a href="javascript:;">联系我们</a>
+                    </li>
+                <li>
+                    <a href="javascript:;">人才招聘</a>
+                    </li>
+                </ul>
+        
+                <ul>
+                <p>
+                    体验与服务
+                </p>
+                <li>
+                    <a href="javascript:;">查询体验店</a>
+                    </li>
+                <li>
+                    <a href="javascript:;">查询服务店</a>
+                    </li>
+                <li>
+                    <a href="javascript:;">服务政策</a>
+                    </li>
+                <li>
+                    <a href="javascript:;">ADKL保养</a>
+                    </li>
+                </ul>
+                <ul>
+                <p>APP下载</p>
+                <li>
+                    <img src="img/29_f04691e53cf831bdd7f8defcb31149f4.png" alt="">
+                </li>
+                </ul>
+                <a href="index.html">
+                <img src="img/logo.jpg" alt="">
+                </a>
+            </div>
+            <div class="footer-p">
+                <p>Copyinght  2021 DLL ADKL创新 版权所有哼ICE备 12022732号</p>
+            </div>
+        </div>
+
+        <!-- return -->
+        <a href="#" class="return iconfont icon-fanhuidingbu">
+        </a>
+
+    </div>
+
+
+    <!-- js -->
+    <script src="js/we.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"> </script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".swiper1", {
+            // loop:true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper = new Swiper(".swiper2", {
+            loop: true,
+            spaceBetween: 10,
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+
+        var swiper = new Swiper(".swiper3", {
+            // loop:true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".swiper4", {
+            loop: true,
+            spaceBetween: 10,
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+
+        var swiper = new Swiper(".swiper5", {
+            // loop:true,
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+        });
+        var swiper2 = new Swiper(".swiper6", {
+            loop: true,
+            spaceBetween: 10,
+
+            thumbs: {
+                swiper: swiper,
+            },
+        });
+    </script>
+
+    <!-- 时间js -->
+    <script type="text/javascript" src="js/time.js"></script>
+    <!-- 时间消失 -->
+    <script src="js/common.js"></script>
+
+</body>
+</html>

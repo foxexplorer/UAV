@@ -1,0 +1,65 @@
+.box{
+    background-color: #F6F6F6;
+
+}
+.banner{
+    width: 100%;
+    /* height: 4.5rem; */
+    /* height: rem; */
+    margin-bottom: 0.5rem;
+}
+.record{
+    text-align: center;
+}
+.record .write p:nth-child(1){
+    font-size: 0.3rem;
+}
+.record .write p:nth-child(2){
+    font-size: 0.15rem;
+}
+.record-2{
+    width: 100%;
+    padding-top: 0.5rem;
+    /* height: 4rem; */
+}
+.record-2 .ksj{
+    width: 100%;
+    height: 6.5rem;
+    background-color: #000;
+    margin: 0.2rem auto;
+}
+
+.record-3{
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+/* .record-3 .write{
+    padding-bottom: 0.3rem;
+} */
+.shey{
+    margin-top: 0.25rem;
+}
+.mySwiper3 .swiper-slide .Img{
+    /* position: absolute; */
+    /* left: 0.8rem; */
+    width: 100%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+}
+/* .mySwiper3 .swiper-wrapper .write h1{
+    font-size: 2rem;
+    position: absolute;
+    top: -1.5rem;
+    right: -1.3rem;
+    z-index: -1;
+}
+.shey .mySwiper3 .swiper-wrapper .write{
+    background-color: #000;
+    position: absolute;
+    top: 1.7rem;
+    right: 18%;
+}
+.shey .mySwiper3 .swiper-wrapper .write p{
+    font-size: 0.23rem;
+    text-align: left;
+} */
